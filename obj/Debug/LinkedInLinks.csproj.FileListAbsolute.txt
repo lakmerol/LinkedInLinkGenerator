@@ -1,0 +1,8 @@
+C:\My Codes\LinkedInLinks\obj\Debug\LinkedInLinks.csproj.AssemblyReference.cache
+C:\My Codes\LinkedInLinks\obj\Debug\LinkedInLinks.csproj.SuggestedBindingRedirects.cache
+C:\My Codes\LinkedInLinks\obj\Debug\LinkedInLinks.csproj.CoreCompileInputs.cache
+C:\My Codes\LinkedInLinks\bin\Debug\LinkedInLinks.exe.config
+C:\My Codes\LinkedInLinks\bin\Debug\LinkedInLinks.exe
+C:\My Codes\LinkedInLinks\bin\Debug\LinkedInLinks.pdb
+C:\My Codes\LinkedInLinks\obj\Debug\LinkedInLinks.exe
+C:\My Codes\LinkedInLinks\obj\Debug\LinkedInLinks.pdb

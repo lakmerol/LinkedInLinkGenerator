@@ -5,18 +5,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace LinkedInLinks
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string[] Titles = { "new graduate", "new grad", "yeni mezun","mezun" , "intern", "junior","jr" };
-            string[] JobTitles = { "Software Developer", "Web Developer", "Application Developer", ".NET Developer", "C# Developer", "ASP.NET Developer", ".NET Software Engineer", "Full Stack%20Developer" ,".NET CORE" };
-            string[] Cities = { "Izmır", "Istanbul", "Ankara", "Antalya" };
-            string ChangedLink = $"https://www.linkedin.com/jobs/search/?&keywords=JobTitles%20Titles&location=Cities%2C%20Turkey&refresh=true";
+            string[] Titles = { "new graduate", "new grad", "yeni mezun","junior" };
+            string[] JobTitles = { "Software Developer", "Web Developer", ".NET Developer",".NET Software Engineer", "Full Stack%20Developer" };
+            string[] Cities = { "Izmır", "Istanbul", "Ankara"};
+            string ChangedLink = $"https://www.linkedin.com/jobs/search/?&keywords=JobTitles%20Titles%20NOT%20Senior&location=Cities%2C%20Turkey&refresh=true";
             StringBuilder LinkSb = new StringBuilder();
-       
+           
             for (int i = 0; i < Titles.Count(); i++)
             {
              Titles[i] = Replacer(Titles[i]);
